@@ -2,10 +2,10 @@
 
 let str="racecar";
 let n_str="";
-    for (let a=str.length; a>=1; a--) {
+    for (let a=str.length-1; a>=1; a--) {
         n_str+=str[a];
     } if (n_str===str) {
-        console.log("PELINDROM");
+        console.log("PELINDROME");
     } else {
-        console.log("No PELINDROM");
+        console.log("NOT A PELINDROM");
     }
