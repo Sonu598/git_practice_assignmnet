@@ -2,12 +2,12 @@
 
 let num = 13;
 let count = 0;
-for (a=1;a<num;a++) {
-    if (Num%a==0) {
+for (a=1;a<=num;a++) {
+    if (num%a==0) {
 	Count++;
   } if (count==2) {
-	console.log("Prime");
+	console.log("PRIME");
   } else {
-	console.log("not Prime")
+	console.log("NOT PRIME");
   }
 }
